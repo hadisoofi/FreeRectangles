@@ -28,5 +28,8 @@ public class Point {
 
     public Point subtract(Point p) {return new Point(this.x - p.x, this.y - p.y);}
 
-
+    @Override
+    public String toString() {
+        return String.format("x: %.2f, y: %.2f", x, y);
+    }
 }
