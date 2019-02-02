@@ -1,9 +1,9 @@
 public class Test {
     public static void main(String[] args) {
-        Point p1 = new Point(2,0);
-        Point center = new Point(3, 0);
-        Point p2 = p1.rotate(center, 90);
-        System.out.println(p2);
+        Point p1 = new Point(2,1);
+        Point center = new Point(3, 5);
+        Line line1 = new Line(p1, center);
+        System.out.println(line1);
 
     }
 }
